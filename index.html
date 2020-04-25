@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Covid-19 SDG Project</title>
+	<link rel="stylesheet" type="text/css" href="./css/covidStyle.css">
+</head>
+<style type="text/css">
+	
+</style>
+<body>
+	<div class="container">
+		<main class="main">
+			<h1>Covid-19 Facebook/SDG Project</h1>
+			<form class="form-container">
+				<div class="main-input">
+					<label for="data-population">Population</label>
+					<input type="number" name="population" id="data-population">
+				</div>
+				<div class="main-input">
+					<label for="data-time-to-elapse">Time to Elapse</label>
+					<input type="number" name="timeToElapse" id="data-time-to-elapse">	
+				</div>
+				<div class="main-input">
+					<label for="data-reported-cases">Reported Cases</label>
+					<input type="number" name="reportedCases" id="data-reported-cases">
+					</div>
+				<div class="main-input">
+					<label for="data-total-hospital-beds">Total Hospital Beds</label>
+					<input type="number" name="totalHospitalBeds" id="data-total-hospital-beds">
+				</div>
+				<div class="main-input">
+					<label for="data-period-type">Period Type</label>
+					<select id="data-period-type">
+						<option value="none">--select--</option>
+						<option value="days">days</option>
+						<option value="weeks">weeks</option>
+						<option value="months">months</option>
+						</select>
+				</div>
+				
+				<div class="btn-input">
+					<button id="data-go-estimate">data-go-estimate</button>
+					<button id="reset-btn">Reset</button>
+				</div>
+			</form>
+		</main>
+	</div>
+</body>
+<script type="module" src="./js/main.js"></script>
+</html>
